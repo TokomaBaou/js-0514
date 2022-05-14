@@ -8,3 +8,11 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 `;
+class Movie {
+  constructor(genru, director) {
+    this.genru = genru;
+    this.director = director;
+  }
+}
+
+let StarWars = new Movie("SF", "George Lucas");
